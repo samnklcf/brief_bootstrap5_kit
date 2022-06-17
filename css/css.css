@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "police";
+    src: url('/media/bcc90f9166f491ca4a926d79afa74d3e.ttf');
+}
+
+
+.m-zero {
+
+    padding: 0 !important;
+}
+
+.lolo {
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.lolo img {
+    transition: all .2s ease;
+}
+
+.lolo img:hover {
+    transform: scale(1.2);
+}
+
+.contenue {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #00006d95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 1s ease;
+
+
+}
+
+.contenue:hover {
+    opacity: 1;
+    animation-name: grand;
+    animation-timing-function: linear;
+    animation-duration: .1s;
+
+
+}
+
+@keyframes grand {
+    0% {
+        transform: scale(1.2);
+    }
+}
+
+.contenue:hover>img {
+    transform: scale(1.2);
+}
+
+
+.titre {
+    font-size: 12px !important;
+    color: white;
+    padding: 0 !important;
+
+
+}
+
+.trait {
+    width: 40px;
+    height: 5px;
+    background-color: white;
+
+}
