@@ -14,6 +14,9 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
 
 */
+
+@import url('/css/style.css');
+
 @font-face {
     font-family: 'future';
     src: url('/media/bcc90f9166f491ca4a926d79afa74d3e.ttf');
