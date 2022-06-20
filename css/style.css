@@ -2291,7 +2291,7 @@ img {
     margin-left: -13px
 }
 
-.featured-project {
+.partieFonction {
     position: relative;
     overflow: hidden;
     height: 0;
@@ -2300,13 +2300,13 @@ img {
 }
 
 @media (min-width: 39.375em) {
-    .featured-project {
+    .partieFonction {
         padding-top: 35.7%
     }
 }
 
-.featured-project__image,
-.featured-project__image img {
+.partieFonction__image,
+.partieFonction__image img {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -2315,7 +2315,7 @@ img {
     transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
-.featured-project__description {
+.partieFonction__description {
     top: 0;
     right: 0;
     bottom: 0;
@@ -2325,7 +2325,7 @@ img {
     transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
-.featured-project__description .heading-set {
+.partieFonction__description .heading-set {
     top: 0;
     right: 0;
     bottom: 0;
@@ -2339,7 +2339,7 @@ img {
     transform: scale(0.8)
 }
 
-.featured-project__description__bg {
+.partieFonction__description__bg {
     top: 0;
     right: 0;
     bottom: 0;
@@ -2353,28 +2353,28 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .featured-project--small {
+    .partieFonction--small {
         padding-top: 23.8%
     }
 }
 
-.featured-project:hover .featured-project__image {
+.partieFonction:hover .partieFonction__image {
     -ms-transform: scale(1.3);
     transform: scale(1.3)
 }
 
-.featured-project:hover .featured-project__description {
+.partieFonction:hover .partieFonction__description {
     opacity: 1
 }
 
-.featured-project:hover .heading-set {
+.partieFonction:hover .heading-set {
     opacity: 1;
     -ms-transform: scale(1);
     transform: scale(1)
 }
 
-.featured-project:active .heading-set,
-.featured-project:active .heading-set {
+.partieFonction:active .heading-set,
+.partieFonction:active .heading-set {
     opacity: 0.7;
     transition: 0.15s
 }
@@ -3378,13 +3378,13 @@ img {
     margin-top: 2rem
 }
 
-.nav-primary:after {
+.premierNav:after {
     content: "";
     display: table;
     clear: both
 }
 
-.nav-primary__item {
+.premierNav__item {
     font-style: normal;
     font-weight: normal;
     font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
@@ -3407,7 +3407,7 @@ img {
 }
 
 @media (min-width: 39.375em) {
-    .nav-primary__item {
+    .premierNav__item {
         font-style: normal;
         font-weight: normal;
         font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
@@ -3422,20 +3422,20 @@ img {
     }
 }
 
-.nav-primary__item:hover {
+.premierNav__item:hover {
     color: #222
 }
 
-.nav-primary--knockout .nav-primary__item {
+.premierNav--knockout .premierNav__item {
     color: #fff !important;
     opacity: 1
 }
 
-.nav-primary--knockout .nav-primary__item:hover {
+.premierNav--knockout .premierNav__item:hover {
     opacity: 0.8
 }
 
-.nav-primary__item.is-current {
+.premierNav__item.is-current {
     color: #222;
     opacity: 1
 }
@@ -3552,18 +3552,18 @@ img {
     margin-top: 1em
 }
 
-.odc-logo-link--footer img {
+.lien--footer img {
     height: 1.46154em;
     opacity: 0.8;
     transition: 0.15s
 }
 
-.ie9 .odc-logo-link--footer img {
+.ie9 .lien--footer img {
     height: 2.07692em;
     width: 6.07692em
 }
 
-.odc-logo-link--footer:hover img {
+.lien--footer:hover img {
     opacity: 1
 }
 
@@ -3864,7 +3864,7 @@ img {
     opacity: 0
 }
 
-.post__heading__image img.is-loaded {
+.post__heading__image img.chargement {
     opacity: 1;
     transition: opacity 0.3s linear
 }
@@ -4174,7 +4174,7 @@ img {
     }
 }
 
-.project-details__heading {
+Fonction-details__heading {
     font-style: normal;
     font-weight: normal;
     font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
@@ -4191,7 +4191,7 @@ img {
     margin-bottom: .16667em
 }
 
-.project-details__item {
+Fonction-details__item {
     font-style: normal;
     font-weight: normal;
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
@@ -4206,7 +4206,7 @@ img {
     text-decoration: none
 }
 
-.project-details__item:link:hover {
+Fonction-details__item:link:hover {
     text-decoration: underline
 }
 
@@ -5229,7 +5229,7 @@ img {
     transform: translateY(-3.84615em)
 }
 
-#svg-approach-team-table #project-owner-chair {
+#svg-approach-team-table Fonction-owner-chair {
     -ms-transform: translateX(-3.84615em);
     transform: translateX(-3.84615em)
 }
@@ -5240,25 +5240,25 @@ img {
 }
 
 #svg-approach-team-table #designer-chair,
-#svg-approach-team-table #project-manager-chair {
+#svg-approach-team-table Fonction-manager-chair {
     -ms-transform: translateY(3.84615em);
     transform: translateY(3.84615em)
 }
 
 #svg-approach-team-table #developer-chair,
-#svg-approach-team-table #project-owner-chair,
+#svg-approach-team-table Fonction-owner-chair,
 #svg-approach-team-table #specialist-chair,
 #svg-approach-team-table #designer-chair,
-#svg-approach-team-table #project-manager-chair {
+#svg-approach-team-table Fonction-manager-chair {
     opacity: 0;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
 #svg-approach-team-table #developer-chair.is-revealed,
-#svg-approach-team-table #project-owner-chair.is-revealed,
+#svg-approach-team-table Fonction-owner-chair.is-revealed,
 #svg-approach-team-table #specialist-chair.is-revealed,
 #svg-approach-team-table #designer-chair.is-revealed,
-#svg-approach-team-table #project-manager-chair.is-revealed {
+#svg-approach-team-table Fonction-manager-chair.is-revealed {
     -ms-transform: translateY(0) translateX(0);
     transform: translateY(0) translateX(0);
     opacity: 1;
@@ -5966,7 +5966,7 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .thumb--featured {
+    .thumb--partie {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -5975,12 +5975,12 @@ img {
     }
 }
 
-.thumb--featured .post-meta {
+.thumb--partie .post-meta {
     margin-bottom: 15px;
     margin-bottom: 1.5rem
 }
 
-.thumb--featured .author {
+.thumb--partie .author {
     display: none;
     margin-bottom: 15px;
     margin-bottom: 1.5rem;
@@ -5989,14 +5989,14 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .thumb--featured .author {
+    .thumb--partie .author {
         display: -ms-flexbox;
         display: flex;
         margin-top: 1.5rem
     }
 }
 
-.thumb--featured .author__byline {
+.thumb--partie .author__byline {
     font-style: normal;
     font-weight: normal;
     font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
@@ -6013,14 +6013,14 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .thumb--featured__left {
+    .thumb--partie__left {
         padding-right: 4rem;
         width: 33.33333%
     }
 }
 
 @media (min-width: 62.5em) {
-    .thumb--featured__right {
+    .thumb--partie__right {
         margin-left: 2rem;
         width: 66.66667%
     }
@@ -6091,7 +6091,7 @@ img {
     opacity: 0
 }
 
-.thumb__image.is-loaded {
+.thumb__image.chargement {
     opacity: 1;
     transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.3s linear
 }
@@ -7239,19 +7239,19 @@ img {
     width: 100%
 }
 
-.l-approach-project-callout {
+.l-approachFonction-callout {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto
 }
 
-.l-approach-project-callout:after {
+.l-approachFonction-callout:after {
     content: " ";
     display: block;
     clear: both
 }
 
-.l-approach-project-callout .block--container {
+.l-approachFonction-callout .block--container {
     float: none
 }
 
@@ -7598,7 +7598,7 @@ img {
     }
 }
 
-.l-container {
+.grand-pere {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -7606,7 +7606,7 @@ img {
     background-color: #fff
 }
 
-.l-container:after {
+.granp-pere:after {
     content: " ";
     display: block;
     clear: both
@@ -7641,47 +7641,47 @@ body {
     width: 25%
 }
 
-.l-featured-list:after {
+.l-partie-list:after {
     content: "";
     display: table;
     clear: both
 }
 
-.l-featured-list__col {
+.l-partie-list__col {
     float: left
 }
 
 @media (min-width: 39.375em) {
-    .l-featured-list__col {
+    .l-partie-list__col {
         width: 47%
     }
 }
 
-.l-featured-list__col:nth-child(even) {
+.l-partie-list__col:nth-child(even) {
     margin-top: 30px;
     margin-top: 3rem
 }
 
 @media (min-width: 39.375em) {
-    .l-featured-list__col:nth-child(even) {
+    .l-partie-list__col:nth-child(even) {
         margin-top: 0;
         float: right
     }
 }
 
-.l-featured-list__list>li {
+.l-partie-list__list>li {
     margin-top: 10px;
     margin-top: 1rem
 }
 
-.l-featured-list__footer {
+.l-partie-list__footer {
     margin-top: 35px;
     margin-top: 3.5rem;
     float: left;
     clear: both
 }
 
-.l-featured-list__footer-footnote {
+.l-partie-list__footer-footnote {
     margin-top: 25px;
     margin-top: 2.5rem;
     font-style: normal;
@@ -7697,25 +7697,25 @@ body {
     color: #837d72
 }
 
-.l-featured-projects {
+.grandSection {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto
 }
 
-.l-featured-projects:after {
+.grandSection :after {
     content: " ";
     display: block;
     clear: both
 }
 
-.l-featured-projects .featured-project {
+.grandSection .partieFonction {
     width: 100%;
     float: left
 }
 
 @media (min-width: 39.375em) {
-    .l-featured-projects .featured-project {
+    .grandSection .partieFonction {
         width: 50%;
         float: left
     }
@@ -7805,7 +7805,7 @@ body {
     padding-right: 1.53846em
 }
 
-.l-footer__right .odc-logo-link {
+.l-footer__right .lien {
     display: block;
     margin-bottom: 2.15385em
 }
@@ -7822,7 +7822,7 @@ body {
     margin-left: 1.84615em
 }
 
-.l-header {
+.grand-header {
     padding: 3.07692em 10.8%;
     text-align: center;
     position: relative;
@@ -7831,19 +7831,19 @@ body {
 }
 
 @media (min-width: 39.375em) {
-    .l-header {
+    .grand-header {
         padding: 3.69231em 8.33333%;
         text-align: left
     }
 }
 
-.l-header .odc-logo-link,
-.l-header .nav-primary {
+.grand-header .lien,
+.grand-header .premierNav {
     vertical-align: bottom;
     margin: 0 auto
 }
 
-.l-header .odc-logo-link {
+.grand-header .lien {
     display: block;
     margin: 0 auto;
     margin-bottom: .92308em;
@@ -7851,27 +7851,27 @@ body {
 }
 
 @media (min-width: 39.375em) {
-    .l-header .odc-logo-link {
+    .grand-header .lien {
         margin: 0;
         margin-right: 1.53846em;
         display: inline-block
     }
 }
 
-.l-header .odc-logo-link img {
+.grand-header .lien img {
     display: inline
 }
 
-.l-header .nav-primary {
+.grand-header .premierNav {
     display: inline-block
 }
 
-.l-header--knockout {
+.grand-header--knockout {
     position: absolute
 }
 
 @media (min-width: 62.5em) {
-    .l-header--knockout {
+    .grand-header--knockout {
         padding-top: 5.38462em
     }
 }
@@ -8594,13 +8594,13 @@ body {
 }
 
 @media (min-width: 0) and (max-width: 39.375em) {
-    .l-work-entry-header .project-details {
+    .l-work-entry-header Fonction-details {
         display: none
     }
 }
 
 @media (min-width: 39.375em) {
-    .l-work-entry-header .project-details {
+    .l-work-entry-header Fonction-details {
         position: absolute;
         right: 8.33333%;
         bottom: 16.66667%;
@@ -8608,32 +8608,32 @@ body {
     }
 }
 
-.l-work-projects {
+.l-workFonctions {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto
 }
 
-.l-work-projects:after {
+.l-workFonctions:after {
     content: " ";
     display: block;
     clear: both
 }
 
-.l-work-projects .featured-project {
+.l-workFonctions .partieFonction {
     width: 100%;
     float: left
 }
 
 @media (min-width: 39.375em) {
-    .l-work-projects .featured-project {
+    .l-workFonctions .partieFonction {
         width: 50%;
         float: left
     }
 }
 
 @media (min-width: 62.5em) {
-    .l-work-projects .featured-project {
+    .l-workFonctions .partieFonction {
         width: 33.33333%;
         float: left
     }
