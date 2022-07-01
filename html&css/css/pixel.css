@@ -16,19 +16,35 @@
 */
 
 /* ---------------------------------------Police du jour-------------------------------------------- */
- 
+
 @font-face {
-    font-family: 'future';
-    src: url('/media/bcc90f9166f491c a4a926d79afa74d3e.ttf');
+    font-family: 'ft';
+    src: url('/media/bcc90f9166f491ca4a926d79afa74d3e.ttf');
 }
 
-* {
-    font-family: 'future' !important;
+
+
+/* ------------------------------------------------POLICE DE GOTHAM CITY----------------------------------- */
+@font-face {
+    font-family: 'gotham';
+    src: url('/media/Gotham-Light.ttf');
 }
+
+@font-face {
+    font-family: 'gotham2';
+    src: url('/media/Gotham-Medium.ttf');
+}
+
+
+* {
+    font-family: 'ft' !important;
+}
+
 
 
 .datepicker {
     display: none;
+
 }
 
 .datepicker.active {
@@ -29296,14 +29312,6 @@ blockquote {
 
 /*# sourceMappingURL=pixel.css.map */
 
-@font-face {
-    font-family: 'ft';
-    src: url('/media/bcc90f9166f491ca4a926d79afa74d3e.ttf');
-}
-
-* {
-    font-family: 'ft' !important;
-}
 
 .sam-glisser {
     position: relative;
@@ -38071,3 +38079,10 @@ pre.line-numbers {
 .sam-loading .sam-list {
     background-image: none
 }
+
+.fin li a, .l-footer__right div p strong, .l-footer__right div p {
+    font-family: 'gotham2' !important;
+    font-size: 13px;
+
+}
+
