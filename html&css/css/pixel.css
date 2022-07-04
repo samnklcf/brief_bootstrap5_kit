@@ -38066,11 +38066,20 @@ pre.line-numbers {
 .l-footer__right div p strong,
 .l-footer__right div p {
     font-family: 'gotham2' !important;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 400;
 
 }
 
 .chose li {
     font-size: 12px;
     color: #999;
+}
+
+.opl::selection {
+    cursor: none;
+}
+
+.cay {
+    background-color: #0085a1;
 }
