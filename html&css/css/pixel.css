@@ -38083,3 +38083,7 @@ pre.line-numbers {
 .cay {
     background-color: #0085a1;
 }
+
+::placeholder {
+    font-family: 'gotham2';
+}
