@@ -1620,7 +1620,7 @@ img {
     background-color: #1D1D1D !important
 }
 
-.caption__heading {
+.englobe__heading {
     font-style: normal;
     font-weight: normal;
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
@@ -1634,7 +1634,7 @@ img {
     margin-bottom: .27273em
 }
 
-.caption__body {
+.englobe__body {
     font-style: normal;
     font-weight: normal;
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
@@ -1650,29 +1650,29 @@ img {
     -moz-osx-font-smoothing: grayscale
 }
 
-.caption__photo-credit {
+.englobe__photo-credit {
     display: inline-block;
     vertical-align: middle
 }
 
-.caption__photo-credit svg {
+.englobe__photo-credit svg {
     display: inline-block;
     vertical-align: middle;
     position: relative;
     top: -2px
 }
 
-.caption--on-sombre .caption__heading,
-.caption--on-sombre .caption__body {
+.englobe--on-sombre .englobe__heading,
+.englobe--on-sombre .englobe__body {
     color: #fff
 }
 
-.caption--on-sombre .caption__heading {
+.englobe--on-sombre .englobe__heading {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
 
-.caption--news {
+.englobe--news {
     font-style: normal;
     font-weight: normal;
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
@@ -1689,7 +1689,7 @@ img {
 }
 
 @media (min-width: 39.375em) {
-    .caption--news {
+    .englobe--news {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
@@ -1700,12 +1700,12 @@ img {
 }
 
 @media (min-width: 39.375em) {
-    .caption--news .caption__body {
+    .englobe--news .englobe__body {
         width: 70%
     }
 }
 
-.caption--home {
+.englobe--home {
     margin-top: 30px;
     margin-top: 3rem
 }
@@ -3753,7 +3753,7 @@ img {
     clear: both
 }
 
-.post__heading .post__heading__image+.caption {
+.post__heading .post__heading__image+.englobe {
     margin-top: -20px;
     margin-top: -2rem;
     margin-left: -5%;
@@ -3761,7 +3761,7 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .post__heading .post__heading__image+.caption {
+    .post__heading .post__heading__image+.englobe {
         margin-top: -5.25rem;
         margin-bottom: 6.25rem
     }
@@ -3808,7 +3808,7 @@ img {
 }
 
 .post__heading__image,
-.post__heading__image .caption {
+.post__heading__image .englobe {
     margin-left: -5%;
     margin-right: -5%
 }
@@ -4008,7 +4008,7 @@ img {
     }
 }
 
-.post__content .post__content__image-container .caption {
+.post__content .post__content__image-container .englobe {
     padding-top: 10px;
     padding-top: 1rem
 }
@@ -4082,7 +4082,7 @@ img {
     max-width: 100%
 }
 
-.post__content__embed .caption {
+.post__content__embed .englobe {
     margin-top: 10px;
     margin-top: 1rem
 }
@@ -4105,14 +4105,14 @@ img {
     display: block
 }
 
-.post__content__image img+.caption,
-.post__content__image .caption+img,
-.post__content__image a+.caption {
+.post__content__image img+.englobe,
+.post__content__image .englobe+img,
+.post__content__image a+.englobe {
     margin-top: 10px;
     margin-top: 1rem
 }
 
-.post__content__image+.caption {
+.post__content__image+.englobe {
     margin-top: -40px;
     margin-top: -4rem
 }
@@ -4131,13 +4131,13 @@ img {
 }
 
 @media (min-width: 62.5em) {
-    .post__content__image--full-width:not(.post__heading__image)+.caption {
+    .post__content__image--full-width:not(.post__heading__image)+.englobe {
         margin-left: -50%
     }
 }
 
 @media (min-width: 81.25em) {
-    .post__content__image--full-width:not(.post__heading__image)+.caption {
+    .post__content__image--full-width:not(.post__heading__image)+.englobe {
         margin-left: calc(-50% - 5rem);
         margin-right: -13.3333%
     }
