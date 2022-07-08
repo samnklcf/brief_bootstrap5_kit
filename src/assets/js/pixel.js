@@ -1,20 +1,10 @@
-var header = document.getElementById('header');
-var section1 = document.getElementById('section1');
-var section2 = document.getElementById('section2');
-var foro = document.getElementById('foro');
-
-
-
-
-
-header.innerHTML = `<header class="grand-header "> <a href="/" class="lien"> <img src="./odc-linked_odc-logo.png"
+var header=document.getElementById("header"),section1=document.getElementById("section1"),section2=document.getElementById("section2"),foro=document.getElementById("foro");header.innerHTML=`<header class="grand-header "> <a href="/" class="lien"> <img src="./odc-linked_odc-logo.png"
 alt="One Design Company" style="width: 300px !important;"> </a>
 <nav class="premierNav "> <a href="#" class="premierNav__item">Work</a> <a href="#"
 class="premierNav__item">About</a> <a href="#" class="premierNav__item">News</a> <a href="#"
 class="premierNav__item">Contact</a> </nav>
-</header>`
 
-section1.innerHTML = `<section class="grandSection ">
+</header>`,section1.innerHTML=`<section class="grandSection ">
 <section class="grandSection row">
     <div class="partieFonction " href="#"> <img alt="ISEE logo on a pavement background"
             class="partieFonction__image redimension chargement" data-sizes="auto"
@@ -265,9 +255,7 @@ section1.innerHTML = `<section class="grandSection ">
 <section class="l-section-divider-content l-section-divider-content--alt" style="font-family: 'ft';"> <a href="#"
     title="More Work" class="outline-button"
     style="padding: 12px; font-family: 'ft' !important; font-weight:900 !important;"> </a>
-</section>`
-
-section2.innerHTML = `<section class="l-accueil-clients">
+</section>`,section2.innerHTML=`<section class="l-accueil-clients">
 <div class="l-accueil-clients__content">
     <div class="enhaut-set">
         <h1 class="enhaut-set__premierecouleur">Our Clients</h1>
@@ -367,63 +355,61 @@ section2.innerHTML = `<section class="l-accueil-clients">
             long-term adaptability.</p>
     </div>
 </div>
-</section>`
-
-foro.innerHTML = `<footer class="l-pieddepage">
-<div class="l-pieddepage__left">
-    <div class="message-enregistrement">
-        <p class="message-enregistrement__description"><a href="#">The Weekly:</a> A Tuesday morning
-            briefing
-            filled with shop-talk, a closer look into the minds of the folks at our studio, and prompts to
-            spark curiosity and creativity.</p>
-        <form a class="message-enregistrement__form ">
-            <div class="input-set input-set--text js-input-set">
-                <div class="input-set__input-wrapper"> <input id="semaine-enregistrement__pieddepage"
-                        type="email" class="entrer js-premierecouleur-form-input "
-                        placeholder="Your Email Address…">
+</section>`,foro.innerHTML=`<footer class="l-pieddepage">
+    <div class="l-pieddepage__left">
+        <div class="message-enregistrement">
+            <p class="message-enregistrement__description"><a href="#">The Weekly:</a> A Tuesday morning
+                briefing
+                filled with shop-talk, a closer look into the minds of the folks at our studio, and prompts to
+                spark curiosity and creativity.</p>
+            <form a class="message-enregistrement__form ">
+                <div class="input-set input-set--text js-input-set">
+                    <div class="input-set__input-wrapper"> <input id="semaine-enregistrement__pieddepage"
+                            type="email" class="entrer js-premierecouleur-form-input "
+                            placeholder="Your Email Address…">
+                    </div>
+                    <button type="submit" value="Subscribe"
+                        class="submit-button-square js-premierecouleur-form-submit">
+                        <img src="./fleche.png" alt="" srcset="" width="15" style="margin: 0 auto;"> </button>
                 </div>
-                <button type="submit" value="Subscribe"
-                    class="submit-button-square js-premierecouleur-form-submit">
-                    <img src="./fleche.png" alt="" srcset="" width="15" style="margin: 0 auto;"> </button>
+                <div style="position: absolute; left: -5000px;"><input type="text"></div>
+            </form>
+        </div>
+    </div>
+    <div class="l-pieddepage__center"> <a href="#" class="pieddepage-contact-link trackeur">
+            Want to
+            learn more? <span>Get in Touch</span> </a>
+        <div class="link-list link-chose--pieddepage">
+            <div class="enhaut-set enhaut-set--link-chose">
+                <h1 class="enhaut-set__premierecouleur" style="font-family: 'ft' !important; color: white !important;">Our Services</h1>
             </div>
-            <div style="position: absolute; left: -5000px;"><input type="text"></div>
-        </form>
-    </div>
-</div>
-<div class="l-pieddepage__center"> <a href="#" class="pieddepage-contact-link trackeur">
-        Want to
-        learn more? <span>Get in Touch</span> </a>
-    <div class="link-list link-chose--pieddepage">
-        <div class="enhaut-set enhaut-set--link-chose">
-            <h1 class="enhaut-set__premierecouleur" style="font-family: 'ft' !important;">Our Services</h1>
+            <ul class="fin">
+                <li><a href="#">Branding & Strategy</a></li>
+                <li><a href="#">Logo & Identity Systems</a></li>
+                <li><a href="#">Website Design</a></li>
+                <li><a href="#">Front and Backend Web Development</a></li>
+                <li><a href="#">Web Application Design</a></li>
+                <li><a href="#">API Integrations</a></li>
+            </ul>
         </div>
-        <ul class="fin">
-            <li><a href="#">Branding & Strategy</a></li>
-            <li><a href="#">Logo & Identity Systems</a></li>
-            <li><a href="#">Website Design</a></li>
-            <li><a href="#">Front and Backend Web Development</a></li>
-            <li><a href="#">Web Application Design</a></li>
-            <li><a href="#">API Integrations</a></li>
-        </ul>
     </div>
-</div>
-<div class="l-pieddepage__right"> <a href="/" class="lien lien--pieddepage"> <img height="19" width="56"
-            src="./media/logo/odc-linked_odc-logo-white.svg" alt="One Design Company"> </a>
-    <div class="contact-info contact-info--pieddepage">
-        <p><strong style="font-size: 12px; font-family: 'ft' !important;">One Design Company</strong></p>
-        <p style="font-size: 12px;">230 W Superior, Suite 700</p>
-        <p style="font-size: 12px;">Chicago, Illinois 60654</p>
-        <p style="font-size: 12px;"><strong style="font-size: 12px;">T</strong> 312 602 3335</p>
-        <p style="font-size: 12px;"><strong style="font-size: 12px;">F</strong> 888 425 8136</p>
-        <p style="font-size: 12px;"><strong style="font-size: 12px;">E</strong> <a
-                href="#">info@onedesigncompany.com</a></p>
-        <div class="contact-info__careers">
-            <p style="font-size: 12px;"> <strong style="font-size: 12px;">Jobs at One:</strong> <a href="#"
-                    class="trackeur" style="font-size: 12px;"> View Open Positions </a>
-                <br><strong style="font-size: 12px;"><span> sa</span> Accessibility at One:</strong> <a
-                    href="#" style="font-size: 12px;">Accessibility Statement</a>
-            </p>
-        </div>
-    </div><img src="./media/kilo.png" alt="" width="200px" class="opl">
-</div>
+    <div class="l-pieddepage__right"> <a href="/" class="lien lien--pieddepage"> <img height="19" width="56"
+                src="./media/logo/odc-linked_odc-logo-white.svg" alt="One Design Company"> </a>
+        <div class="contact-info contact-info--pieddepage">
+            <p><strong style="font-size: 12px; font-family: 'ft' !important;">One Design Company</strong></p>
+            <p style="font-size: 12px;">230 W Superior, Suite 700</p>
+            <p style="font-size: 12px;">Chicago, Illinois 60654</p>
+            <p style="font-size: 12px;"><strong style="font-size: 12px;">T</strong> 312 602 3335</p>
+            <p style="font-size: 12px;"><strong style="font-size: 12px;">F</strong> 888 425 8136</p>
+            <p style="font-size: 12px;"><strong style="font-size: 12px;">E</strong> <a
+                    href="#">info@onedesigncompany.com</a></p>
+            <div class="contact-info__careers">
+                <p style="font-size: 12px;"> <strong style="font-size: 12px;">Jobs at One:</strong> <a href="#"
+                        class="trackeur" style="font-size: 12px;"> View Open Positions </a>
+                    <br><strong style="font-size: 12px;"><span> sa</span> Accessibility at One:</strong> <a
+                        href="#" style="font-size: 12px;">Accessibility Statement</a>
+                </p>
+            </div>
+        </div><img src="./media/kilo.png" alt="" width="200px" class="opl">
+    </div>
 </footer>`
